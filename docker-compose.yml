@@ -26,7 +26,7 @@ services:
       - bun
 
   jetstream:
-    image: "junibqueer/jetstream:main"
+    image: "ghcr.io/juni-b-queer/jetstream-new:personal-branch"
     container_name: jetstream
     environment:
       - CURSOR_FILE=/data/cursor.json
