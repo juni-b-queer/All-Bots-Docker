@@ -7,7 +7,7 @@ down:
 	docker compose down
 
 logs:
-	docker compose logs -f --since 1h reminderbot sillybots
+	docker compose logs -f --since 1h reminderbot sillybots usertracker
 
 backup-db:
 	./bin/backup-db.sh
