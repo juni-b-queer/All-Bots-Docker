@@ -16,7 +16,7 @@ import-db:
 	./bin/import-db.sh `ls ./backups/*_bunreplybot.sql | tail -1`
 
 pull:
-	docker compose pull
+	git pull && docker compose pull
 
 
 
